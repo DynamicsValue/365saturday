@@ -28,7 +28,6 @@ C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\Microsoft.Xrm.Sdk.xml
 C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
 C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
 C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
-C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\xunit.abstractions.xml
 C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\xunit.assert.pdb
 C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\xunit.assert.xml
 C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\xunit.core.pdb
@@ -38,3 +37,8 @@ C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\xunit.execution.desktop
 C:\Code\365saturday\D365Saturday.Plugins.Tests\obj\Debug\D365Saturday.Plugins.Tests.csprojResolveAssemblyReference.cache
 C:\Code\365saturday\D365Saturday.Plugins.Tests\obj\Debug\D365Saturday.Plugins.Tests.dll
 C:\Code\365saturday\D365Saturday.Plugins.Tests\obj\Debug\D365Saturday.Plugins.Tests.pdb
+C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\xunit.runner.utility.desktop.dll
+C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\D365Saturday.Plugins.Tests.dll.config
+C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\D365Saturday.Plugins.dll
+C:\Code\365saturday\D365Saturday.Plugins.Tests\bin\Debug\D365Saturday.Plugins.pdb

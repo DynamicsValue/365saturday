@@ -60,6 +60,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\D365Saturday.TypedEntities\GeneratedCode.cs">
+      <Link>TypedEntities\GeneratedCode.cs</Link>
+    </Compile>
+    <Compile Include="..\D365Saturday.TypedEntities\OptionSets.cs">
+      <Link>TypedEntities\OptionSets.cs</Link>
+    </Compile>
+    <Compile Include="PhoneCallCreatePlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
