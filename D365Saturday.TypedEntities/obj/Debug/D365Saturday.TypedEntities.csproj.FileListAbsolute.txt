@@ -1,0 +1,7 @@
+C:\Code\365saturday\D365Saturday.TypedEntities\obj\Debug\D365Saturday.TypedEntities.csprojResolveAssemblyReference.cache
+C:\Code\365saturday\D365Saturday.TypedEntities\bin\Debug\D365Saturday.TypedEntities.dll
+C:\Code\365saturday\D365Saturday.TypedEntities\bin\Debug\D365Saturday.TypedEntities.pdb
+C:\Code\365saturday\D365Saturday.TypedEntities\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Code\365saturday\D365Saturday.TypedEntities\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Code\365saturday\D365Saturday.TypedEntities\obj\Debug\D365Saturday.TypedEntities.dll
+C:\Code\365saturday\D365Saturday.TypedEntities\obj\Debug\D365Saturday.TypedEntities.pdb

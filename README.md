@@ -34,6 +34,8 @@
 
 ### 3.2. Solution Overview / Layout
 
+Note: Restore any NuGet packages first. This will pull the SDKs and CoreTools (i.e. CrmSvcUtil.exe, SolutionPackager etc) automatically to the packages folder.
+
 * D365Saturday.TypedEntities: Class library with the early bound entities needed by the plugins and unit test project. It will use crmsvcutil which can be downloaded from [NuGet](https://docs.microsoft.com/en-gb/dynamics365/customer-engagement/developer/download-tools-nuget).
 
 

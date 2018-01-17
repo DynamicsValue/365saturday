@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Extension", "CrmSvc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratePicklistEnums", "CrmSvcUtilExtensions\GeneratePicklistEnums\GeneratePicklistEnums.csproj", "{EC553439-4946-4623-B3D8-2222D17F5FBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.Plugins", "D365Saturday.Plugins\D365Saturday.Plugins.csproj", "{A56E8B33-8436-4566-A8B8-713A966D88F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.Plugins.Tests", "D365Saturday.Plugins.Tests\D365Saturday.Plugins.Tests.csproj", "{66B16559-2936-46E2-BB17-280BCD6CE069}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +36,14 @@ Global
 		{EC553439-4946-4623-B3D8-2222D17F5FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC553439-4946-4623-B3D8-2222D17F5FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC553439-4946-4623-B3D8-2222D17F5FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56E8B33-8436-4566-A8B8-713A966D88F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56E8B33-8436-4566-A8B8-713A966D88F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56E8B33-8436-4566-A8B8-713A966D88F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56E8B33-8436-4566-A8B8-713A966D88F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B16559-2936-46E2-BB17-280BCD6CE069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B16559-2936-46E2-BB17-280BCD6CE069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B16559-2936-46E2-BB17-280BCD6CE069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B16559-2936-46E2-BB17-280BCD6CE069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
