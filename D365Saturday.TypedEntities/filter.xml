@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <entities>
+  <entity>contact</entity>
   <entity>phonecall</entity>
   <entity>ultra_phonecallhistory</entity>
+  <entity>ultra_systemparameter</entity>
 </entities>

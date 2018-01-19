@@ -1718,6 +1718,318 @@ namespace TypedEntities
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAccountRoleCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DecisionMaker = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Employee = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Influencer = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAddress1_AddressTypeCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		BillTo = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		ShipTo = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Primary = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Other = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAddress1_FreightTermsCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FOB = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		NoCharge = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAddress1_ShippingMethodCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Airborne = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DHL = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FedEx = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		UPS = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		PostalMail = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		FullLoad = 6,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		WillCall = 7,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAddress2_AddressTypeCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAddress2_FreightTermsCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAddress2_ShippingMethodCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAddress3_AddressTypeCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAddress3_FreightTermsCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactAddress3_ShippingMethodCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactCustomerSizeCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactCustomerTypeCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactEducationCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactFamilyStatusCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Single = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Married = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Divorced = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Widowed = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactGenderCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Male = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Female = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactHasChildrenCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactLeadSourceCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactPaymentTermsCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Net30 = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		_210Net30 = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Net45 = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Net60 = 4,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactPreferredAppointmentDayCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Sunday = 0,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Monday = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Tuesday = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Wednesday = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Thursday = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Friday = 5,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Saturday = 6,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactPreferredAppointmentTimeCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Morning = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Afternoon = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Evening = 3,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactPreferredContactMethodCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Any = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Email = 2,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Phone = 3,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Fax = 4,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Mail = 5,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactShippingMethodCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum contact_statuscode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ContactTerritoryCode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		DefaultValue = 1,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
 	public enum PhoneCallPriorityCode
 	{
 		
@@ -1752,6 +2064,18 @@ namespace TypedEntities
 	[System.Runtime.Serialization.DataContractAttribute()]
 	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
 	public enum ultra_phonecallhistory_statuscode
+	{
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Active = 1,
+		
+		[System.Runtime.Serialization.EnumMemberAttribute()]
+		Inactive = 2,
+	}
+	
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public enum ultra_systemparameter_statuscode
 	{
 		
 		[System.Runtime.Serialization.EnumMemberAttribute()]

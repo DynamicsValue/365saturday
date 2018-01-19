@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TypedEntities;
 
 namespace D365Saturday.Plugins
 {
@@ -21,7 +22,38 @@ namespace D365Saturday.Plugins
             IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
             #endregion
 
-            throw new NotImplementedException();
+            if (context.InputParameters.Contains("Target") &&
+                context.InputParameters["Target"] is Entity)
+            {
+                var target = context.InputParameters["Target"] as Entity;
+                var phoneCall = target.ToEntity<PhoneCall>();
+
+                var contact = phoneCall.RegardingObjectId;
+                var phoneNumber = phoneCall.PhoneNumber;
+
+                //query to create a phone history only if the pair [phonenumber, contact] doesn't exist
+                using (var ctx = new XrmServiceContext(service))
+                {
+                    var exists = (from ph in ctx.CreateQuery<ultra_phonecallhistory>()
+                                  where ph.ultra_contactid.Id == contact.Id
+                                  where ph.ultra_phonenumber == phoneNumber
+                                  select ph).FirstOrDefault() != null;
+
+                    if(!exists)
+                    {
+                        //Create phone history record
+                        var phoneHistory = new ultra_phonecallhistory()
+                        {
+                            ultra_contactid = contact,
+                            ultra_phonenumber = phoneNumber,
+                            ultra_lastcalldate = DateTime.Now
+                        };
+                        service.Create(phoneHistory);
+                    }
+                    
+                }
+                    
+            }
         }
     }
 }

@@ -31,6 +31,7 @@
 ### 3.1. Entity Model
 
 * ultra_phonecallhistory:  Entity used to aggregate phone call records by phone number and contact.
+* ultra_systemparameter:  Entity used to some system-wide configuration data
 
 ### 3.2. Solution Overview / Layout
 
