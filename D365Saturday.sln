@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.Plugins", "D36
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.Plugins.Tests", "D365Saturday.Plugins.Tests\D365Saturday.Plugins.Tests.csproj", "{66B16559-2936-46E2-BB17-280BCD6CE069}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CodeActivities", "D365Saturday.CodeActivities\D365Saturday.CodeActivities.csproj", "{2B297950-3C5B-4D0C-81AB-5F007CD146F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CodeActivities.Tests", "D365Saturday.CodeActivities.Tests\D365Saturday.CodeActivities.Tests.csproj", "{4C4251B0-78EA-443F-A867-62F1AF96DAA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +48,14 @@ Global
 		{66B16559-2936-46E2-BB17-280BCD6CE069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B16559-2936-46E2-BB17-280BCD6CE069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B16559-2936-46E2-BB17-280BCD6CE069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B297950-3C5B-4D0C-81AB-5F007CD146F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B297950-3C5B-4D0C-81AB-5F007CD146F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B297950-3C5B-4D0C-81AB-5F007CD146F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B297950-3C5B-4D0C-81AB-5F007CD146F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

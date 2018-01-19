@@ -48,7 +48,11 @@ namespace D365Saturday.Plugins
                             ultra_phonenumber = phoneNumber,
                             ultra_lastcalldate = DateTime.Now
                         };
-                        service.Create(phoneHistory);
+                        phoneHistory.Id = service.Create(phoneHistory);
+
+                        //Phonecall then assigned to the created phonecall history
+                        phoneCall.ultra_phonecallhistoryid = phoneHistory.ToEntityReference();
+
                     }
                     
                 }

@@ -30,6 +30,8 @@ namespace D365Saturday.Plugins.Tests
             var historyRecord = historyRecords.First();
             Assert.Equal(phoneCall.PhoneNumber, historyRecord.ultra_phonenumber);
             Assert.Equal(phoneCall.RegardingObjectId.Id, historyRecord.ultra_contactid.Id);
+            Assert.Equal(historyRecord.Id, phoneCall.ultra_phonecallhistoryid.Id);
+
         }
 
         [Fact]
@@ -58,10 +60,6 @@ namespace D365Saturday.Plugins.Tests
 
             var historyRecords = ctx.CreateQuery<ultra_phonecallhistory>().ToList();
             Assert.Equal(1, historyRecords.Count);
-
-            var historyRecord = historyRecords.First();
-            Assert.Equal(phoneCall.PhoneNumber, historyRecord.ultra_phonenumber);
-            Assert.Equal(phoneCall.RegardingObjectId.Id, historyRecord.ultra_contactid.Id);
         }
     }
 }
