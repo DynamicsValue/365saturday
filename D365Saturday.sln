@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.TypedEntities"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitRootFiles", "GitRootFiles", "{5938A75F-D7C6-454D-8B5B-BB412006902D}"
 	ProjectSection(SolutionItems) = preProject
+		devtools\download.ps1 = devtools\download.ps1
 		README.md = README.md
 	EndProjectSection
 EndProject
