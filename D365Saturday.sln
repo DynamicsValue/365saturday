@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CodeActivities
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CodeActivities.Tests", "D365Saturday.CodeActivities.Tests\D365Saturday.CodeActivities.Tests.csproj", "{4C4251B0-78EA-443F-A867-62F1AF96DAA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.WebResources", "D365Saturday.WebResources\D365Saturday.WebResources.csproj", "{5F14A41A-85D3-4616-8846-C1061EEBF260}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
