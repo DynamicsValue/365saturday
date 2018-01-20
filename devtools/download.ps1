@@ -41,6 +41,16 @@ move .\Tools\$pdFolder\tools\*.* .\Tools\PackageDeployment
 Remove-Item .\Tools\$pdFolder -Force -Recurse
 
 ##
+##Download XrmCIFramework
+##
+./nuget install XrmCIFramework -O .\Tools
+md .\Tools\xRMCIFramework
+$pdFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'XrmCIFramework.'}
+move .\Tools\$pdFolder\tools\*.* .\Tools\xRMCIFramework
+Remove-Item .\Tools\$pdFolder -Force -Recurse
+
+
+##
 ##Remove NuGet.exe
 ##
 Remove-Item nuget.exe    
