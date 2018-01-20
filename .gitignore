@@ -17,3 +17,9 @@
 /CrmSvcUtilExtensions/BasicFilteringService/bin/Debug
 /CrmSvcUtilExtensions/GeneratePicklistEnums/bin/Debug
 /.vs/D365Saturday/v15
+/D365Saturday.CRMPackage/bin/Debug
+/D365Saturday.CRMPackage/obj/Debug
+/packages/Microsoft.CrmSdk.Deployment.9.0.0.7
+/packages/Microsoft.CrmSdk.UII.CommonAssemblies.9.0.0.7
+/packages/Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.0.0.7
+/packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.9.0.0.7

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.TypedEntities", "D365Saturday.TypedEntities\D365Saturday.TypedEntities.csproj", "{161B9F05-7343-472F-928D-800082C599EE}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CodeActivities", "D365Saturday.CodeActivities\D365Saturday.CodeActivities.csproj", "{2B297950-3C5B-4D0C-81AB-5F007CD146F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CodeActivities.Tests", "D365Saturday.CodeActivities.Tests\D365Saturday.CodeActivities.Tests.csproj", "{4C4251B0-78EA-443F-A867-62F1AF96DAA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CRMPackage", "D365Saturday.CRMPackage\D365Saturday.CRMPackage.csproj", "{170C0103-3F94-4896-9062-6314167F596A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,8 +59,15 @@ Global
 		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43D413CC-659E-4F82-864B-09B8FA4C16F1}
 	EndGlobalSection
 EndGlobal
