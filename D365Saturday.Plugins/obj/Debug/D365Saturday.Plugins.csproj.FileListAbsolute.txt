@@ -1,9 +1,0 @@
-C:\Code\365saturday\D365Saturday.Plugins\bin\Debug\D365Saturday.Plugins.dll
-C:\Code\365saturday\D365Saturday.Plugins\bin\Debug\D365Saturday.Plugins.pdb
-C:\Code\365saturday\D365Saturday.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
-C:\Code\365saturday\D365Saturday.Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
-C:\Code\365saturday\D365Saturday.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
-C:\Code\365saturday\D365Saturday.Plugins\bin\Debug\Microsoft.Xrm.Sdk.xml
-C:\Code\365saturday\D365Saturday.Plugins\obj\Debug\D365Saturday.Plugins.csprojResolveAssemblyReference.cache
-C:\Code\365saturday\D365Saturday.Plugins\obj\Debug\D365Saturday.Plugins.dll
-C:\Code\365saturday\D365Saturday.Plugins\obj\Debug\D365Saturday.Plugins.pdb
