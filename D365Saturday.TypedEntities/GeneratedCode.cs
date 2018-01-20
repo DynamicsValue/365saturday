@@ -3500,6 +3500,19 @@ namespace TypedEntities
 				return this.GetRelatedEntity<TypedEntities.Contact>("contact_master_contact", Microsoft.Xrm.Sdk.EntityRole.Referencing);
 			}
 		}
+		
+		/// <summary>
+		/// N:1 team_contacts
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningteam")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("team_contacts")]
+		public TypedEntities.Team team_contacts
+		{
+			get
+			{
+				return this.GetRelatedEntity<TypedEntities.Team>("team_contacts", null);
+			}
+		}
 	}
 	
 	[System.Runtime.Serialization.DataContractAttribute()]
@@ -4504,6 +4517,19 @@ namespace TypedEntities
 		}
 		
 		/// <summary>
+		/// N:1 team_phonecall
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningteam")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("team_phonecall")]
+		public TypedEntities.Team team_phonecall
+		{
+			get
+			{
+				return this.GetRelatedEntity<TypedEntities.Team>("team_phonecall", null);
+			}
+		}
+		
+		/// <summary>
 		/// N:1 ultra_ultra_phonecallhistory_phonecall
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ultra_phonecallhistoryid")]
@@ -4519,6 +4545,561 @@ namespace TypedEntities
 				this.OnPropertyChanging("ultra_ultra_phonecallhistory_phonecall");
 				this.SetRelatedEntity<TypedEntities.ultra_phonecallhistory>("ultra_ultra_phonecallhistory_phonecall", null, value);
 				this.OnPropertyChanged("ultra_ultra_phonecallhistory_phonecall");
+			}
+		}
+	}
+	
+	/// <summary>
+	/// Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.
+	/// </summary>
+	[System.Runtime.Serialization.DataContractAttribute()]
+	[Microsoft.Xrm.Sdk.Client.EntityLogicalNameAttribute("team")]
+	[System.CodeDom.Compiler.GeneratedCodeAttribute("CrmSvcUtil", "9.0.0.9154")]
+	public partial class Team : Microsoft.Xrm.Sdk.Entity, System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
+	{
+		
+		/// <summary>
+		/// Default Constructor.
+		/// </summary>
+		public Team() : 
+				base(EntityLogicalName)
+		{
+		}
+		
+		public const string EntityLogicalName = "team";
+		
+		public const int EntityTypeCode = 9;
+		
+		public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+		
+		public event System.ComponentModel.PropertyChangingEventHandler PropertyChanging;
+		
+		private void OnPropertyChanged(string propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void OnPropertyChanging(string propertyName)
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, new System.ComponentModel.PropertyChangingEventArgs(propertyName));
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user primary responsible for the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("administratorid")]
+		public Microsoft.Xrm.Sdk.EntityReference AdministratorId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("administratorid");
+			}
+			set
+			{
+				this.OnPropertyChanging("AdministratorId");
+				this.SetAttributeValue("administratorid", value);
+				this.OnPropertyChanged("AdministratorId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the business unit with which the team is associated.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("businessunitid")]
+		public Microsoft.Xrm.Sdk.EntityReference BusinessUnitId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("businessunitid");
+			}
+			set
+			{
+				this.OnPropertyChanging("BusinessUnitId");
+				this.SetAttributeValue("businessunitid", value);
+				this.OnPropertyChanged("BusinessUnitId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who created the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the team was created.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdon")]
+		public System.Nullable<System.DateTime> CreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("createdon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who created the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("createdonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference CreatedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("createdonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Description of the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("description")]
+		public string Description
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("description");
+			}
+			set
+			{
+				this.OnPropertyChanging("Description");
+				this.SetAttributeValue("description", value);
+				this.OnPropertyChanged("Description");
+			}
+		}
+		
+		/// <summary>
+		/// Email address for the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("emailaddress")]
+		public string EMailAddress
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("emailaddress");
+			}
+			set
+			{
+				this.OnPropertyChanging("EMailAddress");
+				this.SetAttributeValue("emailaddress", value);
+				this.OnPropertyChanged("EMailAddress");
+			}
+		}
+		
+		/// <summary>
+		/// Exchange rate for the currency associated with the team with respect to the base currency.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("exchangerate")]
+		public System.Nullable<decimal> ExchangeRate
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<decimal>>("exchangerate");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the data import or data migration that created this record.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("importsequencenumber")]
+		public System.Nullable<int> ImportSequenceNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<int>>("importsequencenumber");
+			}
+			set
+			{
+				this.OnPropertyChanging("ImportSequenceNumber");
+				this.SetAttributeValue("importsequencenumber", value);
+				this.OnPropertyChanged("ImportSequenceNumber");
+			}
+		}
+		
+		/// <summary>
+		/// Information about whether the team is a default business unit team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("isdefault")]
+		public System.Nullable<bool> IsDefault
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<bool>>("isdefault");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the user who last modified the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedby");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time when the team was last modified.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedon")]
+		public System.Nullable<System.DateTime> ModifiedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("modifiedon");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the delegate user who last modified the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("modifiedonbehalfby")]
+		public Microsoft.Xrm.Sdk.EntityReference ModifiedOnBehalfBy
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("modifiedonbehalfby");
+			}
+		}
+		
+		/// <summary>
+		/// Name of the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("name")]
+		public string Name
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("name");
+			}
+			set
+			{
+				this.OnPropertyChanging("Name");
+				this.SetAttributeValue("name", value);
+				this.OnPropertyChanged("Name");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the organization associated with the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("organizationid")]
+		public System.Nullable<System.Guid> OrganizationId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("organizationid");
+			}
+		}
+		
+		/// <summary>
+		/// Date and time that the record was migrated.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("overriddencreatedon")]
+		public System.Nullable<System.DateTime> OverriddenCreatedOn
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.DateTime>>("overriddencreatedon");
+			}
+			set
+			{
+				this.OnPropertyChanging("OverriddenCreatedOn");
+				this.SetAttributeValue("overriddencreatedon", value);
+				this.OnPropertyChanged("OverriddenCreatedOn");
+			}
+		}
+		
+		/// <summary>
+		/// Shows the ID of the process.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("processid")]
+		public System.Nullable<System.Guid> ProcessId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("processid");
+			}
+			set
+			{
+				this.OnPropertyChanging("ProcessId");
+				this.SetAttributeValue("processid", value);
+				this.OnPropertyChanged("ProcessId");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the default queue for the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("queueid")]
+		public Microsoft.Xrm.Sdk.EntityReference QueueId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("queueid");
+			}
+			set
+			{
+				this.OnPropertyChanging("QueueId");
+				this.SetAttributeValue("queueid", value);
+				this.OnPropertyChanged("QueueId");
+			}
+		}
+		
+		/// <summary>
+		/// Choose the record that the team relates to.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("regardingobjectid")]
+		public Microsoft.Xrm.Sdk.EntityReference RegardingObjectId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("regardingobjectid");
+			}
+			set
+			{
+				this.OnPropertyChanging("RegardingObjectId");
+				this.SetAttributeValue("regardingobjectid", value);
+				this.OnPropertyChanged("RegardingObjectId");
+			}
+		}
+		
+		/// <summary>
+		/// Shows the ID of the stage.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("stageid")]
+		public System.Nullable<System.Guid> StageId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("stageid");
+			}
+			set
+			{
+				this.OnPropertyChanging("StageId");
+				this.SetAttributeValue("stageid", value);
+				this.OnPropertyChanged("StageId");
+			}
+		}
+		
+		/// <summary>
+		/// Select whether the team will be managed by the system.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("systemmanaged")]
+		public System.Nullable<bool> SystemManaged
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<bool>>("systemmanaged");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier for the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("teamid")]
+		public System.Nullable<System.Guid> TeamId
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<System.Guid>>("teamid");
+			}
+			set
+			{
+				this.OnPropertyChanging("TeamId");
+				this.SetAttributeValue("teamid", value);
+				if (value.HasValue)
+				{
+					base.Id = value.Value;
+				}
+				else
+				{
+					base.Id = System.Guid.Empty;
+				}
+				this.OnPropertyChanged("TeamId");
+			}
+		}
+		
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("teamid")]
+		public override System.Guid Id
+		{
+			get
+			{
+				return base.Id;
+			}
+			set
+			{
+				this.TeamId = value;
+			}
+		}
+		
+		/// <summary>
+		/// Shows the team template that is associated with the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("teamtemplateid")]
+		public Microsoft.Xrm.Sdk.EntityReference TeamTemplateId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("teamtemplateid");
+			}
+			set
+			{
+				this.OnPropertyChanging("TeamTemplateId");
+				this.SetAttributeValue("teamtemplateid", value);
+				this.OnPropertyChanged("TeamTemplateId");
+			}
+		}
+		
+		/// <summary>
+		/// Select the team type.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("teamtype")]
+		public Microsoft.Xrm.Sdk.OptionSetValue TeamType
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.OptionSetValue>("teamtype");
+			}
+			set
+			{
+				this.OnPropertyChanging("TeamType");
+				this.SetAttributeValue("teamtype", value);
+				this.OnPropertyChanged("TeamType");
+			}
+		}
+		
+		/// <summary>
+		/// Unique identifier of the currency associated with the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("transactioncurrencyid")]
+		public Microsoft.Xrm.Sdk.EntityReference TransactionCurrencyId
+		{
+			get
+			{
+				return this.GetAttributeValue<Microsoft.Xrm.Sdk.EntityReference>("transactioncurrencyid");
+			}
+			set
+			{
+				this.OnPropertyChanging("TransactionCurrencyId");
+				this.SetAttributeValue("transactioncurrencyid", value);
+				this.OnPropertyChanged("TransactionCurrencyId");
+			}
+		}
+		
+		/// <summary>
+		/// For internal use only.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("traversedpath")]
+		public string TraversedPath
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("traversedpath");
+			}
+			set
+			{
+				this.OnPropertyChanging("TraversedPath");
+				this.SetAttributeValue("traversedpath", value);
+				this.OnPropertyChanged("TraversedPath");
+			}
+		}
+		
+		/// <summary>
+		/// Version number of the team.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("versionnumber")]
+		public System.Nullable<long> VersionNumber
+		{
+			get
+			{
+				return this.GetAttributeValue<System.Nullable<long>>("versionnumber");
+			}
+		}
+		
+		/// <summary>
+		/// Pronunciation of the full name of the team, written in phonetic hiragana or katakana characters.
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("yominame")]
+		public string YomiName
+		{
+			get
+			{
+				return this.GetAttributeValue<string>("yominame");
+			}
+			set
+			{
+				this.OnPropertyChanging("YomiName");
+				this.SetAttributeValue("yominame", value);
+				this.OnPropertyChanged("YomiName");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N team_contacts
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("team_contacts")]
+		public System.Collections.Generic.IEnumerable<TypedEntities.Contact> team_contacts
+		{
+			get
+			{
+				return this.GetRelatedEntities<TypedEntities.Contact>("team_contacts", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("team_contacts");
+				this.SetRelatedEntities<TypedEntities.Contact>("team_contacts", null, value);
+				this.OnPropertyChanged("team_contacts");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N team_phonecall
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("team_phonecall")]
+		public System.Collections.Generic.IEnumerable<TypedEntities.PhoneCall> team_phonecall
+		{
+			get
+			{
+				return this.GetRelatedEntities<TypedEntities.PhoneCall>("team_phonecall", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("team_phonecall");
+				this.SetRelatedEntities<TypedEntities.PhoneCall>("team_phonecall", null, value);
+				this.OnPropertyChanged("team_phonecall");
+			}
+		}
+		
+		/// <summary>
+		/// 1:N team_ultra_phonecallhistory
+		/// </summary>
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("team_ultra_phonecallhistory")]
+		public System.Collections.Generic.IEnumerable<TypedEntities.ultra_phonecallhistory> team_ultra_phonecallhistory
+		{
+			get
+			{
+				return this.GetRelatedEntities<TypedEntities.ultra_phonecallhistory>("team_ultra_phonecallhistory", null);
+			}
+			set
+			{
+				this.OnPropertyChanging("team_ultra_phonecallhistory");
+				this.SetRelatedEntities<TypedEntities.ultra_phonecallhistory>("team_ultra_phonecallhistory", null, value);
+				this.OnPropertyChanged("team_ultra_phonecallhistory");
 			}
 		}
 	}
@@ -5009,6 +5590,19 @@ namespace TypedEntities
 		}
 		
 		/// <summary>
+		/// N:1 team_ultra_phonecallhistory
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("owningteam")]
+		[Microsoft.Xrm.Sdk.RelationshipSchemaNameAttribute("team_ultra_phonecallhistory")]
+		public TypedEntities.Team team_ultra_phonecallhistory
+		{
+			get
+			{
+				return this.GetRelatedEntity<TypedEntities.Team>("team_ultra_phonecallhistory", null);
+			}
+		}
+		
+		/// <summary>
 		/// N:1 ultra_contact_ultra_phonecallhistory
 		/// </summary>
 		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("ultra_contactid")]
@@ -5410,6 +6004,17 @@ namespace TypedEntities
 			get
 			{
 				return this.CreateQuery<TypedEntities.PhoneCall>();
+			}
+		}
+		
+		/// <summary>
+		/// Gets a binding to the set of all <see cref="TypedEntities.Team"/> entities.
+		/// </summary>
+		public System.Linq.IQueryable<TypedEntities.Team> TeamSet
+		{
+			get
+			{
+				return this.CreateQuery<TypedEntities.Team>();
 			}
 		}
 		

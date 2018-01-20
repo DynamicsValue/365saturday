@@ -75,6 +75,7 @@
     <Compile Include="..\D365Saturday.TypedEntities\OptionSets.cs">
       <Link>TypedEntities\OptionSets.cs</Link>
     </Compile>
+    <Compile Include="AssignToTeamWithName.cs" />
     <Compile Include="RetrieveSystemParameter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
