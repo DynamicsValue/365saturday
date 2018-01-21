@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_ultra_phonecallhistory" />
+  <EntityRelationship Name="lk_ultra_phonecallhistory_createdby" />
+  <EntityRelationship Name="lk_ultra_phonecallhistory_modifiedby" />
+  <EntityRelationship Name="lk_ultra_systemparameter_createdby" />
+  <EntityRelationship Name="lk_ultra_systemparameter_modifiedby" />
+  <EntityRelationship Name="organization_ultra_systemparameter" />
+  <EntityRelationship Name="owner_ultra_phonecallhistory" />
+  <EntityRelationship Name="team_ultra_phonecallhistory" />
+  <EntityRelationship Name="ultra_contact_ultra_phonecallhistory" />
+  <EntityRelationship Name="ultra_ultra_phonecallhistory_phonecall" />
+  <EntityRelationship Name="user_ultra_phonecallhistory" />
+</EntityRelationships>

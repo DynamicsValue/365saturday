@@ -23,3 +23,17 @@
 /packages/Microsoft.CrmSdk.UII.CommonAssemblies.9.0.0.7
 /packages/Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.0.0.7
 /packages/Microsoft.CrmSdk.XrmTooling.PackageDeployment.9.0.0.7
+/CrmSvcUtilExtensions/GeneratePicklistEnums/bin/Release
+/D365Saturday.CodeActivities/bin/Release
+/D365Saturday.CodeActivities/obj/Release
+/D365Saturday.CodeActivities.Tests/bin/Release
+/D365Saturday.CodeActivities.Tests/obj/Release
+/D365Saturday.CRMPackage/bin/Release
+/D365Saturday.Plugins/bin/Release
+/D365Saturday.Plugins/obj/Release
+/D365Saturday.CRMPackage/obj/Release
+/D365Saturday.Plugins.Tests/bin/Release
+/D365Saturday.Plugins.Tests/obj/Release
+/D365Saturday.TypedEntities/bin/Release
+/D365Saturday.TypedEntities/obj/Release
+/CrmSvcUtilExtensions/BasicFilteringService/bin/Release

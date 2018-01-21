@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps>
+  <EntityMap>
+    <EntitySource>contact</EntitySource>
+    <EntityTarget>lead</EntityTarget>
+    <AttributeMaps>
+      <AttributeMap>
+        <AttributeSource>contactid</AttributeSource>
+        <AttributeTarget>parentcontactid</AttributeTarget>
+      </AttributeMap>
+    </AttributeMaps>
+  </EntityMap>
+</EntityMaps>

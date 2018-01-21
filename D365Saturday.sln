@@ -8,7 +8,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitRootFiles", "GitRootFiles", "{5938A75F-D7C6-454D-8B5B-BB412006902D}"
 	ProjectSection(SolutionItems) = preProject
 		devtools\download.ps1 = devtools\download.ps1
+		devtools\mapping.xml = devtools\mapping.xml
+		devtools\Pack.ps1 = devtools\Pack.ps1
 		README.md = README.md
+		devtools\Unpack.ps1 = devtools\Unpack.ps1
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Extension", "CrmSvcUtilExtensions\BasicFilteringService\Service Extension.csproj", "{6B498A14-F54E-4E96-87B3-5D44822E898D}"

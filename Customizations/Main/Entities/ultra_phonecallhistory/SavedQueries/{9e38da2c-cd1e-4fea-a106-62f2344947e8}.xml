@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{9e38da2c-cd1e-4fea-a106-62f2344947e8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ultra_name" select="1" icon="1" preview="1">
+        <row name="result" id="ultra_phonecallhistoryid">
+          <cell name="ultra_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ultra_phonecallhistory">
+          <attribute name="ultra_phonecallhistoryid" />
+          <attribute name="ultra_name" />
+          <attribute name="createdon" />
+          <order attribute="ultra_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="ultra_name" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Phonecall History" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

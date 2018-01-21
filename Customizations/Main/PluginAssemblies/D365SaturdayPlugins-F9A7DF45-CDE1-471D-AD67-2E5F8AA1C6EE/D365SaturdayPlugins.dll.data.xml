@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="D365Saturday.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=21620154a98dce62" PluginAssemblyId="f9a7df45-cde1-471d-ad67-2e5f8aa1c6ee" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/D365SaturdayPlugins-F9A7DF45-CDE1-471D-AD67-2E5F8AA1C6EE/D365SaturdayPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="D365Saturday.Plugins.PhoneCallCreatePlugin, D365Saturday.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=21620154a98dce62" PluginTypeId="64b86c7e-baf3-4dde-8b7b-a72f11d253ee" Name="D365Saturday.Plugins.PhoneCallCreatePlugin">
+      <FriendlyName>798a5adb-5fb5-458e-a8b9-ee6b8f2b65ba</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

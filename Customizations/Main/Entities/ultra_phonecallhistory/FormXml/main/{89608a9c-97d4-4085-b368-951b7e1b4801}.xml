@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms>
+  <systemform>
+    <formid>{89608a9c-97d4-4085-b368-951b7e1b4801}</formid>
+    <IntroducedVersion>0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{5addc80f-8e83-4e41-bade-c094837046cb}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{eb0590c7-f262-4aad-b49b-ff3daa546085}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b4cd30e7-80d3-8830-3278-ae384b7d6edc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="ultra_phonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ultra_phonenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dc6aedda-1b34-c3d8-2171-aa81b047e6be}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="ultra_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ultra_contactid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c1e80ef-1e93-45c4-94d9-6d1865ade1aa}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ultra_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ultra_name" uniqueid="{19d8a865-6015-d22c-bb03-7c697dd607e3}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8327bef5-dc58-4b13-8376-b26bb571e38c}" showlabel="true" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{0b237e62-404c-aa1e-8e96-6ad33d2cb268}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{78b7b5e4-de61-0941-9257-ac44b149a200}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Stats" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_2" showlabel="true" showbar="true" locklevel="0" id="{a063ae1e-923e-ab44-6b31-82b31cec66ab}" IsUserDefined="0" layout="varwidth" columns="111" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Incoming calls" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7be8a380-cb6c-020a-b04e-4c9ba452a94e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="No. of Incoming Calls" languagecode="1033" />
+                        </labels>
+                        <control id="ultra_numberofcalls" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ultra_numberofcalls" disabled="false" />
+                      </cell>
+                      <cell id="{7aecbd64-0225-9ea7-d7a3-5c4d7e68c452}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="No. of Calls (State)" languagecode="1033" />
+                        </labels>
+                        <control id="ultra_numberofcalls_state" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ultra_numberofcalls_state" disabled="false" />
+                      </cell>
+                      <cell id="{c5a992e9-1a77-d659-0558-0730a80dd391}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="No. of Calls (Last Updated On)" languagecode="1033" />
+                        </labels>
+                        <control id="ultra_numberofcalls_date" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="ultra_numberofcalls_date" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

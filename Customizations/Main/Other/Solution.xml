@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.0.0000.3267" SolutionPackageVersion="9.0" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Customizations</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Customizations" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.10</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>ultrapublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Ultra Publisher" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ultra</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>36604</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="1" schemaName="phonecall" behavior="1" />
+      <RootComponent type="1" schemaName="ultra_phonecallhistory" behavior="0" />
+      <RootComponent type="1" schemaName="ultra_systemparameter" behavior="0" />
+      <RootComponent type="60" id="{29cbbad3-3f0e-4ed3-8736-69c26297bf6d}" behavior="0" />
+      <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" behavior="0" />
+      <RootComponent type="60" id="{89608a9c-97d4-4085-b368-951b7e1b4801}" behavior="0" />
+      <RootComponent type="91" id="{38d780e9-a4e4-47b6-a5a8-7b17c2c842c4}" schemaName="D365Saturday.CodeActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bb88456404b1d9c6" behavior="0" />
+      <RootComponent type="91" id="{f9a7df45-cde1-471d-ad67-2e5f8aa1c6ee}" schemaName="D365Saturday.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=21620154a98dce62" behavior="0" />
+      <RootComponent type="92" id="{5306a71f-70fd-e711-a85b-00224800492f}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="2" schemaName="preferredserviceid" displayName="Preferred Service" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_Service (9.0.3.53)" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.3.53)" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="preferredequipmentid" displayName="Preferred Facility/Equipment" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_Service (9.0.3.53)" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="2" schemaName="defaultpricelevelid" displayName="Price List" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_ProductManagement (9.0.3.53)" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_Service (9.0.3.53)" id="{3a3d00e4-ad90-4aa3-b9ab-1e4f82900d29}" />
+        <Dependent key="6" type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="26" schemaName="Active Services" displayName="Active Services" parentSchemaName="service" parentDisplayName="Service" solution="msdynce_Service (9.0.3.53)" id="{2bd4de5e-a7b4-4f5d-8fde-eb3b62d8e2b2}" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" solution="msdynce_Service (9.0.3.53)" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+        <Dependent key="6" type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="1" type="60" displayName="Information" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.3.53)" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
