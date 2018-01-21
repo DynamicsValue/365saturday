@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="D365Saturday.Plugins.PhoneCallCreatePlugin: Create of phonecall" SdkMessageProcessingStepId="{5306a71f-70fd-e711-a85b-00224800492f}">
+  <PluginTypeName>D365Saturday.Plugins.PhoneCallCreatePlugin, D365Saturday.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=21620154a98dce62</PluginTypeName>
+  <PluginTypeId>64b86c7e-baf3-4dde-8b7b-a72f11d253ee</PluginTypeId>
+  <PrimaryEntity>phonecall</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>D365Saturday.Plugins.PhoneCallCreatePlugin: Create of phonecall</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

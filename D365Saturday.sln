@@ -1,14 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.TypedEntities", "D365Saturday.TypedEntities\D365Saturday.TypedEntities.csproj", "{161B9F05-7343-472F-928D-800082C599EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitRootFiles", "GitRootFiles", "{5938A75F-D7C6-454D-8B5B-BB412006902D}"
 	ProjectSection(SolutionItems) = preProject
 		devtools\download.ps1 = devtools\download.ps1
+		devtools\mapping.xml = devtools\mapping.xml
+		devtools\Pack.ps1 = devtools\Pack.ps1
 		README.md = README.md
+		devtools\Unpack.ps1 = devtools\Unpack.ps1
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Extension", "CrmSvcUtilExtensions\BasicFilteringService\Service Extension.csproj", "{6B498A14-F54E-4E96-87B3-5D44822E898D}"
@@ -22,6 +25,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CodeActivities", "D365Saturday.CodeActivities\D365Saturday.CodeActivities.csproj", "{2B297950-3C5B-4D0C-81AB-5F007CD146F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CodeActivities.Tests", "D365Saturday.CodeActivities.Tests\D365Saturday.CodeActivities.Tests.csproj", "{4C4251B0-78EA-443F-A867-62F1AF96DAA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CRMPackage", "D365Saturday.CRMPackage\D365Saturday.CRMPackage.csproj", "{170C0103-3F94-4896-9062-6314167F596A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.WebResources", "D365Saturday.WebResources\D365Saturday.WebResources.csproj", "{5F14A41A-85D3-4616-8846-C1061EEBF260}"
 EndProject
@@ -59,12 +64,15 @@ Global
 		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C4251B0-78EA-443F-A867-62F1AF96DAA5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43D413CC-659E-4F82-864B-09B8FA4C16F1}
 	EndGlobalSection
 EndGlobal

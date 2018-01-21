@@ -1,0 +1,12 @@
+
+<entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" timestamp="20/01/2018 14:43:17">
+  <entity name="ultra_systemparameter" displayname="System Parameter">
+    <records>
+      <record id="a5311f12-f0fd-e711-a882-00224800449b">
+        <field name="ultra_name" value="CaseTeam" />
+        <field name="ultra_parametervalue" value="Customer Service" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>

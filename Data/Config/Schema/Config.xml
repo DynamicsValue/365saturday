@@ -1,0 +1,8 @@
+<entities >
+  <entity name="ultra_systemparameter" displayname="System Parameter" etc="10008" primaryidfield="ultra_systemparameterid" primarynamefield="ultra_name" disableplugins="false">
+    <fields>
+      <field updateCompare="true" displayname="Name" name="ultra_name" type="string" customfield="true" />
+      <field displayname="Parameter Value" name="ultra_parametervalue" type="string" customfield="true" />
+    </fields>
+  </entity>
+</entities>
