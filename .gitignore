@@ -37,3 +37,4 @@
 /D365Saturday.TypedEntities/bin/Release
 /D365Saturday.TypedEntities/obj/Release
 /CrmSvcUtilExtensions/BasicFilteringService/bin/Release
+node_modules/
