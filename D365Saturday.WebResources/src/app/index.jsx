@@ -8,11 +8,23 @@ import PhoneCallHeader from './components/PhoneCallHeader';
 class App extends React.Component 
 {
     render() {
-        return 
-            <div>
-                <p> Hello React project </p>
-                <PhoneCallHeader></PhoneCallHeader>
-                <PhoneCallHistoryList></PhoneCallHistoryList>
+        let phoneNumber = "+44 666 666 666";
+
+        return <div className="container">
+                <div className="col-md-12">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <PhoneCallHeader phoneNumber={phoneNumber}></PhoneCallHeader>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-12">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <PhoneCallHistoryList></PhoneCallHistoryList>
+                        </div>
+                    </div>
+                </div>
             </div>;
             
     }
