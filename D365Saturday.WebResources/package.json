@@ -4,18 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-register --require babel-polyfill",
+    "build": "webpack -d"
   },
   "author": "Jordi Montana <jordi.montana@gmail.com> (http://dynamicsvalue.com)",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
+    "babel-register":"6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-polyfill": "6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "webpack": "^3.10.0",
-    "chai":"4.1.2"
+    "chai":"4.1.2",
+    "xrm-webapi-client":"3.6.6"
   }
 }

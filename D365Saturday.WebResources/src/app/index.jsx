@@ -21,7 +21,7 @@ class App extends React.Component
                 <div className="col-md-12">
                     <div className="row">
                         <div className="col-md-12">
-                            <PhoneCallHistoryList></PhoneCallHistoryList>
+                            <PhoneCallHistoryList phoneNumber={phoneNumber}></PhoneCallHistoryList>
                         </div>
                     </div>
                 </div>

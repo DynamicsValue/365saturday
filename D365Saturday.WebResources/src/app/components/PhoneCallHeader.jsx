@@ -1,5 +1,7 @@
 import React from 'react';
 
+import NewContactModal from './NewContactModal';
+
 export default class PhoneCallHeader extends React.Component 
 {
     constructor(props) 
@@ -29,6 +31,9 @@ export default class PhoneCallHeader extends React.Component
         });
     }
 
+    showCreateContact() {
+        $('#newContactModal').modal('show');
+    }
     render() {
 
         const phoneNumber = this.props.phoneNumber;
@@ -54,18 +59,21 @@ export default class PhoneCallHeader extends React.Component
         const seconds = pad.substring(0, pad.length - secondsTemp.length) + secondsTemp;
 
         return (
-            <div style={{paddingBottom: '40px'}} className="row">
-                <div className="col-md-4">
-                    <h1>{phoneNumber}</h1>
+            <div>
+                <div style={{paddingBottom: '40px'}} className="row">
+                    <div className="col-md-4">
+                        <h1>{phoneNumber}</h1>
+                    </div>
+                    <div className="col-md-4">
+                        <h1 style={{textAlign: 'center'}}>{hours}:{minutes}:{seconds}</h1>
+                    </div>
+                    <div className="col-md-4">
+                        <h1 style={{textAlign: 'right'}}>
+                            <button className="btn btn-lg btn-success" onClick={this.showCreateContact}>New Contact</button>
+                        </h1>
+                    </div>
                 </div>
-                <div className="col-md-4">
-                    <h1 style={{textAlign: 'center'}}>{hours}:{minutes}:{seconds}</h1>
-                </div>
-                <div className="col-md-4">
-                    <h1 style={{textAlign: 'right'}}>
-                        <button className="btn btn-lg btn-success">New Contact</button>
-                    </h1>
-                </div>
+                <NewContactModal phoneNumber={phoneNumber} />
             </div>
         );
     }

@@ -8,6 +8,7 @@ var assert = require('chai').assert;
 var Guid = require('guid');
 */
 
+/*
 var assert = require('chai').assert;
 
 describe("Web API", function () {
@@ -39,3 +40,4 @@ describe("Web API", function () {
         assert.isTrue(bWasCalled);
     });
 });
+*/
