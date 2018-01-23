@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.TypedEntities", "D365Saturday.TypedEntities\D365Saturday.TypedEntities.csproj", "{161B9F05-7343-472F-928D-800082C599EE}"
 EndProject
@@ -29,6 +29,22 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.CRMPackage", "D365Saturday.CRMPackage\D365Saturday.CRMPackage.csproj", "{170C0103-3F94-4896-9062-6314167F596A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.WebResources", "D365Saturday.WebResources\D365Saturday.WebResources.csproj", "{5F14A41A-85D3-4616-8846-C1061EEBF260}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{35905E28-8637-4512-8AB0-30CD5DFAE6DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{275F4E25-FD3B-4B7C-A7DC-0C50C15EC4B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1ABDFBEE-0094-4542-A5E5-850BA193E9F2}"
+	ProjectSection(SolutionItems) = preProject
+		Data\Config\Data\[Content_Types].xml = Data\Config\Data\[Content_Types].xml
+		Data\Config\Data\data.xml = Data\Config\Data\data.xml
+		Data\Config\Data\data_schema.xml = Data\Config\Data\data_schema.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{2D18DDC3-E69D-482E-AD7D-6BF57660B60F}"
+	ProjectSection(SolutionItems) = preProject
+		Data\Config\Schema\Config.xml = Data\Config\Schema\Config.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +91,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{275F4E25-FD3B-4B7C-A7DC-0C50C15EC4B8} = {35905E28-8637-4512-8AB0-30CD5DFAE6DC}
+		{1ABDFBEE-0094-4542-A5E5-850BA193E9F2} = {275F4E25-FD3B-4B7C-A7DC-0C50C15EC4B8}
+		{2D18DDC3-E69D-482E-AD7D-6BF57660B60F} = {275F4E25-FD3B-4B7C-A7DC-0C50C15EC4B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43D413CC-659E-4F82-864B-09B8FA4C16F1}
