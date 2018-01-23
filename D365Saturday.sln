@@ -46,6 +46,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{2D18DD
 		Data\Config\Schema\Config.xml = Data\Config\Schema\Config.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.UIAutomation", "D365Saturday.UIAutomation\D365Saturday.UIAutomation.csproj", "{FBCD53FC-4D1A-4FCF-B8DB-FD10937CAD62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,10 @@ Global
 		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F14A41A-85D3-4616-8846-C1061EEBF260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCD53FC-4D1A-4FCF-B8DB-FD10937CAD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCD53FC-4D1A-4FCF-B8DB-FD10937CAD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCD53FC-4D1A-4FCF-B8DB-FD10937CAD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCD53FC-4D1A-4FCF-B8DB-FD10937CAD62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

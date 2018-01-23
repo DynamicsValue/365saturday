@@ -42,3 +42,13 @@ node_modules/
 /D365Saturday.WebResources/src/client/public/js/bundle.js
 /D365Saturday.CRMPackage/D365Saturday.CRMPackage.csproj.user
 /D365Saturday.WebResources/bin
+/D365Saturday.UIAutomation/bin
+/D365Saturday.UIAutomation/obj
+/packages/Dynamics365.UIAutomation.Api.9.0.0
+/packages/MSTest.TestAdapter.1.2.0
+/packages/MSTest.TestFramework.1.2.0
+/packages/Newtonsoft.Json.10.0.3
+/packages/Selenium.Chrome.WebDriver.2.31
+/packages/Selenium.Support.3.5.1
+/packages/Selenium.WebDriver.3.5.1
+/packages/System.Diagnostics.DiagnosticSource.4.4.1
