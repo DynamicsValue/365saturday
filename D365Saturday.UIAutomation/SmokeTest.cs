@@ -28,7 +28,12 @@ namespace D365Saturday.UIAutomation
 
         private static string GetConfigValue(string name)
         {
-            return Environment.GetEnvironmentVariable(name);
+            string value = Environment.GetEnvironmentVariable(name);
+            if (string.IsNullOrEmpty(value))
+                value = ConfigurationManager.AppSettings[name];
+            if (string.IsNullOrEmpty(value))
+                throw new NotFoundException(name);
+            return value;
         }
 
         [TestMethod]
