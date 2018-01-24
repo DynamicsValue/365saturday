@@ -52,4 +52,5 @@ node_modules/
 /packages/Selenium.Support.3.5.1
 /packages/Selenium.WebDriver.3.5.1
 /packages/System.Diagnostics.DiagnosticSource.4.4.1
+/packages
 /D365Saturday.WebResources/obj/Debug
