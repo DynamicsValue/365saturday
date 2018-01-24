@@ -14,7 +14,7 @@ namespace D365Saturday.UIAutomation
     {
         public TestContext TestContext { get; set; }
 
-        private SecureString _username = GetConfigValue("CRMUser").ToSecureString();
+        private SecureString _username = GetConfigValue("CRMUsername").ToSecureString();
         private SecureString _password = GetConfigValue("CRMPassword").ToSecureString();
         private Uri _xrmUri = new Uri(GetConfigValue("CRMUrl"));
 
