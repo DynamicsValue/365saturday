@@ -1,19 +1,17 @@
 
 //Retrieves all phoneCall history records for a given number
-import WebApiClient from "./WebApiClient";
+var WebApiClient = require("./WebApiClient");
 
-export default class PhoneCallHistoryUtils  
-{
-    constructor() {
-        WebApiClient.ApiVersion = "9.0";
-        WebApiClient.ReturnAllPages = true;
-    }
+(function (exports) {
+
+    WebApiClient.ApiVersion = "9.0";
+    WebApiClient.ReturnAllPages = true;
 
     /**
      * @param {string} phoneNumber Incoming call number
      * @param {function} callback Callback function to return a list
      */
-    loadHistoryForPhoneNumber(phoneNumber, callback) 
+    exports.loadHistoryForPhoneNumber = function(phoneNumber, callback) 
     {
         var request = {
             entityName: "ultra_phonecallhistory",
@@ -30,4 +28,5 @@ export default class PhoneCallHistoryUtils
                 // Handle error
             });
     }
-}
+
+})(typeof exports === 'undefined' ? this['PhoneCallHistoryUtils'] = {} : exports);

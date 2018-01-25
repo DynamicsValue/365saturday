@@ -1,7 +1,7 @@
 import React from 'react';
 import PhoneCallHistoryRow from './PhonecallHistoryRow';
 import PhoneCallHistoryRowModel from '../models/PhoneCallHistoryRowModel';
-import PhoneCallHistoryUtils from '../utils/WebApiHelper';
+import PhoneCallHistoryUtils from '../utils/PhoneCallHistoryUtils';
 
 export default class PhoneCallHistoryList extends React.Component 
 {
@@ -13,8 +13,7 @@ export default class PhoneCallHistoryList extends React.Component
     }
     componentDidMount() 
     {
-        var utils = new PhoneCallHistoryUtils();
-        utils.loadHistoryForPhoneNumber(this.props.phoneNumber, function(response) {
+        PhoneCallHistoryUtils.loadHistoryForPhoneNumber(this.props.phoneNumber, function(response) {
 
         });
     }

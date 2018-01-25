@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-register --require babel-polyfill",
+    "test": "_mocha --no-timeouts --compilers js:babel-register --require babel-polyfill",
     "build": "webpack -d"
   },
   "author": "Jordi Montana <jordi.montana@gmail.com> (http://dynamicsvalue.com)",
   "license": "MIT",
   "dependencies": {
+    "jsdom":"11.6.0",
     "babel-core": "^6.26.0",
     "babel-register": "6.26.0",
     "babel-loader": "^7.1.2",
@@ -20,6 +21,12 @@
     "react-dom": "^16.2.0",
     "webpack": "^3.10.0",
     "chai": "4.1.2",
-    "xrm-webapi-client": "3.6.6"
+    "xrm-webapi-client": "3.6.6",
+    "jsdom":"11.6.0",
+    "edge":"6",
+    "fakexrmeasy.2016": "0.0.4",
+    "xmlhttprequest": "1.8.0",
+    "odata-parser": "1.4.1",
+    "guid":"0.0.12"
   }
 }
