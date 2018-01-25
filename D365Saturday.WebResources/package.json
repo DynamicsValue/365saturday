@@ -22,8 +22,8 @@
     "webpack": "^3.10.0",
     "chai": "4.1.2",
     "xrm-webapi-client": "3.6.6",
-    "edge":"6",
-    "fakexrmeasy.v9": "0.0.5",
+    "edge":"7.10.1",
+    "fakexrmeasy": "0.0.6",
     "xmlhttprequest": "1.8.0",
     "odata-parser": "1.4.1",
     "guid":"0.0.12"
