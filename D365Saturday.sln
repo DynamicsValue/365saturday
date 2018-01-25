@@ -53,6 +53,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		unit.runsettings = unit.runsettings
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.IntegrationTests", "D365Saturday.IntegrationTests\D365Saturday.IntegrationTests.csproj", "{0AD784DA-DB1C-4DE5-9B30-373532517E14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{FBCD53FC-4D1A-4FCF-B8DB-FD10937CAD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBCD53FC-4D1A-4FCF-B8DB-FD10937CAD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBCD53FC-4D1A-4FCF-B8DB-FD10937CAD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD784DA-DB1C-4DE5-9B30-373532517E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD784DA-DB1C-4DE5-9B30-373532517E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD784DA-DB1C-4DE5-9B30-373532517E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD784DA-DB1C-4DE5-9B30-373532517E14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

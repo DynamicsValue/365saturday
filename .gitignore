@@ -54,3 +54,5 @@ node_modules/
 /packages/System.Diagnostics.DiagnosticSource.4.4.1
 /packages
 /D365Saturday.WebResources/obj/Debug
+/D365Saturday.IntegrationTests/bin/Debug
+/D365Saturday.IntegrationTests/obj/Debug
