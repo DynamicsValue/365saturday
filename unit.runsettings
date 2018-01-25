@@ -29,8 +29,8 @@ Included items must then not match any entries in the exclude list to remain inc
             <!-- Match assembly file paths: -->
             <ModulePaths>
               <Include>
-                <ModulePath>.*D365Saturday.Plugins</ModulePath>
-                <ModulePath>.*D365Saturday.CodeActivities</ModulePath>
+                <ModulePath>.*D365Saturday.Plugins.dll</ModulePath>
+                <ModulePath>.*D365Saturday.CodeActivities.dll</ModulePath>
               </Include>
               <Exclude>
                 <!--<ModulePath>.*CPPUnitTestFramework.*</ModulePath>-->
