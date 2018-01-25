@@ -74,6 +74,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="build.runsettings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>build.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
