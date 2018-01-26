@@ -9,7 +9,7 @@ var egde = require('edge');
 describe("WebApiHelper Tests", function () {
 
     var xrmFakedContext = require('fakexrmeasy');
-    xrmFakedContext.setProxyPath('../packages/FakeXrmEasy.EdgeProxy.v9.0.0.1/lib/net452');
+    xrmFakedContext.setProxyPath('../packages/FakeXrmEasy.EdgeProxy.v9.0.0.2/lib/net452');
     
     it("Should_retrieve_phonecall_history_records_for_a_phonenumber", function(done) {
 
