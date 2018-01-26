@@ -14,7 +14,7 @@ namespace D365Saturday.UIAutomation
     {
         public TestContext TestContext { get; set; }
 
-        private SecureString _username = GetConfigValue("CRMUser").ToSecureString();
+        private SecureString _username = GetConfigValue("CRMUsername").ToSecureString();
         private SecureString _password = GetConfigValue("CRMPassword").ToSecureString();
         private Uri _xrmUri = new Uri(GetConfigValue("CRMUrl"));
 
@@ -28,7 +28,12 @@ namespace D365Saturday.UIAutomation
 
         private static string GetConfigValue(string name)
         {
-            return Environment.GetEnvironmentVariable(name);
+            string value = Environment.GetEnvironmentVariable(name);
+            if (string.IsNullOrEmpty(value))
+                value = ConfigurationManager.AppSettings[name];
+            if (string.IsNullOrEmpty(value))
+                throw new NotFoundException(name);
+            return value;
         }
 
         [TestMethod]
@@ -52,14 +57,18 @@ namespace D365Saturday.UIAutomation
 
                     xrmBrowser.ThinkTime(5000);
 
+                    string firstname = "Wael";
+                    string lastname = Guid.NewGuid().ToString();
+                    string tel = new Random().Next(200000000, 300000000).ToString();
+
                     var fields = new List<Field>
                     {
-                        new Field() {Id = "firstname", Value = "Wael"},
-                        new Field() {Id = "lastname", Value = "Test"}
+                        new Field() {Id = "firstname", Value = firstname},
+                        new Field() {Id = "lastname", Value = lastname}
                     };
                     xrmBrowser.Entity.SetValue(new CompositeControl() { Id = "fullname", Fields = fields });
                     xrmBrowser.Entity.SetValue("emailaddress1", "test@contoso.com");
-                    xrmBrowser.Entity.SetValue("mobilephone", "555-555-5555");
+                    xrmBrowser.Entity.SetValue("mobilephone", tel);
                     xrmBrowser.Entity.SetValue("birthdate", DateTime.Parse("11/1/1980"));
                     xrmBrowser.Entity.SetValue(new OptionSet { Name = "preferredcontactmethodcode", Value = "Email" });
 
