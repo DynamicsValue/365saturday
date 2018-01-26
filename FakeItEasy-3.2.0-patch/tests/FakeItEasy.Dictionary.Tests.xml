@@ -1,0 +1,20 @@
+<!-- NOTE (adamralph): For more info see: http://msdn.microsoft.com/en-us/library/bb514188.aspx -->
+<Dictionary>
+  <Words>
+    <Recognized>
+      <Word>Interceptable</Word>
+      <Word>Taggable</Word>
+      <Word>Sut</Word>
+      <Word>Fakeable</Word>
+      <Word>Dummyable</Word>
+      <Word>Facaded</Word>
+      <Word>Baz</Word>
+      <Word>Bazz</Word>
+      <Word>Qux</Word>
+      <Word>FakeItEasy</Word>
+      <Word>WhenArgumentsMatch</Word>
+      <Word>WithAnyArguments</Word>
+      <Word>Api</Word>
+    </Recognized>
+  </Words>
+</Dictionary>

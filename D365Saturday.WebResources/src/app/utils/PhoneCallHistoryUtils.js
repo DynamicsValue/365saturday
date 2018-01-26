@@ -21,7 +21,7 @@ var WebApiClient = require("./WebApiClient");
         WebApiClient.Retrieve(request)
             .then(function(response){
                 if(callback) {
-                    
+                    callback(response);
                 }
             })
             .catch(function(error) {

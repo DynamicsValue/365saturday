@@ -1,0 +1,28 @@
+version: '{build}'
+image: Visual Studio 2015
+
+pull_requests:
+  do_not_increment_build_number: true
+
+environment:
+    BUILD: $(APPVEYOR_BUILD_NUMBER)
+    COVERITY_EMAIL:
+        secure: 9iw6ajDvltEymr75DhlRbH8X+2olJ8mbWLPqyYMmleg=
+    COVERITY_TOKEN:
+        secure: S9XU2JhyUK9XstLG3CN2vB5M8ce8zYZp5VECx3kvx24=
+
+build_script:
+- ps: >-
+    if ($env:APPVEYOR_SCHEDULED_BUILD -eq "True") {
+        & .\build.cmd coverity
+    } else {
+        & .\build.cmd
+    }
+
+nuget:
+    disable_publish_on_pr: true
+
+test: off
+
+artifacts:
+    - path: .\artifacts\*\*
