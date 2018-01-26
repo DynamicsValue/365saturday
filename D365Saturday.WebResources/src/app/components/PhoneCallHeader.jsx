@@ -1,6 +1,7 @@
 import React from 'react';
 
 import NewContactModal from './NewContactModal';
+import SearchContactModal from './SearchContactModal';
 
 export default class PhoneCallHeader extends React.Component 
 {
@@ -31,8 +32,8 @@ export default class PhoneCallHeader extends React.Component
         });
     }
 
-    showCreateContact() {
-        $('#newContactModal').modal('show');
+    showSearchContact() {
+        $('#searchContactModal').modal('show');
     }
     render() {
 
@@ -69,11 +70,12 @@ export default class PhoneCallHeader extends React.Component
                     </div>
                     <div className="col-md-4">
                         <h1 style={{textAlign: 'right'}}>
-                            <button className="btn btn-lg btn-success" onClick={this.showCreateContact}>New Contact</button>
+                            <button className="btn btn-lg btn-success" onClick={this.showSearchContact}>Search Contact</button>
                         </h1>
                     </div>
                 </div>
                 <NewContactModal phoneNumber={phoneNumber} />
+                <SearchContactModal phoneNumber={phoneNumber} />
             </div>
         );
     }
