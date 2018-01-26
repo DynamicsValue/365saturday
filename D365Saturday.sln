@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.3
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.TypedEntities", "D365Saturday.TypedEntities\D365Saturday.TypedEntities.csproj", "{161B9F05-7343-472F-928D-800082C599EE}"
 EndProject
@@ -55,6 +55,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D365Saturday.IntegrationTests", "D365Saturday.IntegrationTests\D365Saturday.IntegrationTests.csproj", "{0AD784DA-DB1C-4DE5-9B30-373532517E14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeItEasy", "FakeItEasy-3.2.0-patch\src\FakeItEasy\FakeItEasy.csproj", "{74165807-676F-4464-B607-8770C13E8991}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{0AD784DA-DB1C-4DE5-9B30-373532517E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD784DA-DB1C-4DE5-9B30-373532517E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD784DA-DB1C-4DE5-9B30-373532517E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74165807-676F-4464-B607-8770C13E8991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74165807-676F-4464-B607-8770C13E8991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74165807-676F-4464-B607-8770C13E8991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74165807-676F-4464-B607-8770C13E8991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
