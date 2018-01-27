@@ -13,6 +13,8 @@ var WebApiClient = require("./WebApiClient");
      */
     exports.loadHistoryForPhoneNumber = function(phoneNumber, callback) 
     {
+        phoneNumber = phoneNumber.trim();
+        
         var request = {
             entityName: "ultra_phonecallhistory",
             queryParams: "?$select=ultra_contactid,ultra_lastcalldate&$orderby=ultra_lastcalldate desc&$filter=ultra_phonenumber eq '" + phoneNumber + "'"
@@ -27,6 +29,25 @@ var WebApiClient = require("./WebApiClient");
             .catch(function(error) {
                 // Handle error
             });
-    }
+    };
+
+    exports.createPhoneCallFor = function(contactid, phoneNumber, callback) {
+        var request = {
+            entityName: "phonecall",
+            entity: {
+                phonenumber: phoneNumber, 
+                "regardingobjectid_contact@odata.bind": "/contacts(" + contactid + ")"
+            }
+        };
+
+        WebApiClient.Create(request)
+            .then(function(response){
+                if(callback)
+                    callback(response);
+            })
+            .catch(function(error) {
+                // Handle error
+            });
+    }; 
 
 })(typeof exports === 'undefined' ? this['PhoneCallHistoryUtils'] = {} : exports);
