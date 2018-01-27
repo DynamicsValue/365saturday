@@ -23,7 +23,7 @@
     "chai": "4.1.2",
     "xrm-webapi-client": "3.6.6",
     "edge":"7.10.1",
-    "fakexrmeasy": "0.0.15",
+    "fakexrmeasy": "0.0.16",
     "xmlhttprequest": "1.8.0",
     "odata-parser": "1.4.1",
     "guid":"0.0.12",

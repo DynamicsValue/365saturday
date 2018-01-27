@@ -1,6 +1,5 @@
 import React from 'react';
 
-import NewContactModal from './NewContactModal';
 import SearchContactModal from './SearchContactModal';
 
 export default class PhoneCallHeader extends React.Component 
@@ -74,7 +73,6 @@ export default class PhoneCallHeader extends React.Component
                         </h1>
                     </div>
                 </div>
-                <NewContactModal phoneNumber={phoneNumber} />
                 <SearchContactModal phoneNumber={phoneNumber} />
             </div>
         );

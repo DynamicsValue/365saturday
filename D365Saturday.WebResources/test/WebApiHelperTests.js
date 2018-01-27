@@ -1,12 +1,13 @@
 
 
 var PhoneCallHistoryUtils = require('../src/app/utils/PhoneCallHistoryUtils.js');
+var ContactUtils = require('../src/app/utils/ContactUtils.js');
 
 var assert = require('chai').assert;
 var Guid = require('guid');
 var egde = require('edge');
 
-describe("WebApiHelper Tests", function () {
+describe("Phonecall History Tests", function () {
 
     var xrmFakedContext = require('fakexrmeasy');
     xrmFakedContext.setProxyPath('../packages/FakeXrmEasy.EdgeProxy.v9.0.0.2/lib/net452');
@@ -31,6 +32,26 @@ describe("WebApiHelper Tests", function () {
             assert.equal(result.value.length, 1); 
             assert.equal(result.value[0].ultra_contactid.Id, contact1.id);
 
+            done();
+        });
+    });
+
+    
+});
+
+describe("Contacts Tests", function () {
+
+    var xrmFakedContext = require('fakexrmeasy');
+    xrmFakedContext.setProxyPath('../packages/FakeXrmEasy.EdgeProxy.v9.0.0.2/lib/net452');
+    
+    it("Should_create_contact", function(done) {
+
+        var contact = {
+            firstName: 'Lionel',
+            lastName: 'Messi'
+        };
+
+        ContactUtils.createContact(contact, function(result) {
             done();
         });
     });
