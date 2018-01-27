@@ -58,7 +58,7 @@ namespace D365Saturday.UIAutomation
                     xrmBrowser.ThinkTime(5000);
 
                     string firstname = "Wael";
-                    string lastname = Guid.NewGuid().ToString();
+                    string lastname = "Test";
                     string tel = new Random().Next(200000000, 300000000).ToString();
 
                     var fields = new List<Field>
