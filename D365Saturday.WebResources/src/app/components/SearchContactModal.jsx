@@ -40,7 +40,7 @@ export default class SearchContactModal extends React.Component
             let contacts = [];
             for(var i=0; i < result.value.length; i++) {
                 let c = result.value[i];
-                contacts.push(new SearhContactRowModel(i.toString(), c.firstname, c.lastname) )
+                contacts.push(new SearhContactRowModel(c.contactid, c.firstname, c.lastname) )
             }
             self.setState({
                 isEditing: false,
@@ -49,14 +49,16 @@ export default class SearchContactModal extends React.Component
         });
     }
     render() {
-        var c1 = new SearhContactRowModel('1', 'Leo', 'Messi');
-        var c2 = new SearhContactRowModel('2', 'Xavi', 'Hernandez');
+        //var c1 = new SearhContactRowModel('1', 'Leo', 'Messi');
+        //var c2 = new SearhContactRowModel('2', 'Xavi', 'Hernandez');
 
         const rows = this.state.rows;
+        const phoneNumber = this.props.phoneNumber;
+
         //const rows = [c1, c2];
 
         const listItems = rows.map((m) =>
-            <SearchContactModalRow key={m.id} model={m}></SearchContactModalRow>
+            <SearchContactModalRow key={m.id} model={m} phoneNumber={phoneNumber}></SearchContactModalRow>
         );
 
         let contactDetails = <br />;

@@ -7,7 +7,7 @@ var assert = require('chai').assert;
 var Guid = require('guid');
 var egde = require('edge');
 
-describe("Phonecall History Tests", function () {
+describe("Phonecall Tests", function () {
 
     var xrmFakedContext = require('fakexrmeasy');
     xrmFakedContext.setProxyPath('../packages/FakeXrmEasy.EdgeProxy.v9.0.0.2/lib/net452');
@@ -36,7 +36,19 @@ describe("Phonecall History Tests", function () {
         });
     });
 
-    
+    /*
+    it("Should_create_phonecall_for_selected_contact", function(done) {
+
+        var phoneCall = {
+            firstName: 'Lionel',
+            lastName: 'Messi'
+        };
+
+        ContactUtils.createContact(contact, function(result) {
+            done();
+        });
+    });
+    */
 });
 
 describe("Contacts Tests", function () {
