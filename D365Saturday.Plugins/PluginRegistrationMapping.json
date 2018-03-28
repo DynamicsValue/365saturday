@@ -1,0 +1,30 @@
+{
+  "Name": "D365Saturday.Plugins.dll",
+  "IsolationMode": "Sandbox",
+  "SourceType": "Database",
+  "PluginTypes": [
+    {
+      "Description": null,
+      "Name": "D365Saturday.Plugins.PhoneCallCreatePlugin",
+      "FriendlyName": "798a5adb-5fb5-458e-a8b9-ee6b8f2b65ba",
+      "TypeName": "D365Saturday.Plugins.PhoneCallCreatePlugin",
+      "SolutionId": "00000000-0000-0000-0000-000000000000",
+      "Steps": [
+        {
+          "Name": "D365Saturday.Plugins.PhoneCallCreatePlugin: Create of phonecall",
+          "MessageName": "Create",
+          "Description": "D365Saturday.Plugins.PhoneCallCreatePlugin: Create of phonecall",
+          "CustomConfiguration": null,
+          "FilteringAttributes": null,
+          "ImpersonatingUserFullname": "",
+          "Mode": "Synchronous",
+          "PrimaryEntityName": "phonecall",
+          "Rank": 1,
+          "Stage": "Preoperation",
+          "SupportedDeployment": "ServerOnly",
+          "Images": []
+        }
+      ]
+    }
+  ]
+}

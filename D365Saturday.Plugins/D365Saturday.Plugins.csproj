@@ -66,11 +66,14 @@
     <Compile Include="..\D365Saturday.TypedEntities\OptionSets.cs">
       <Link>TypedEntities\OptionSets.cs</Link>
     </Compile>
+    <None Include="UpdatePluginRegistration.ps1" />
+    <None Include="GetPluginRegistration.ps1" />
     <Compile Include="PhoneCallCreatePlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="PluginRegistrationMapping.json" />
     <None Include="strongkey.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
