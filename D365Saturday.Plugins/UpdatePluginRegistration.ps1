@@ -20,5 +20,8 @@ if ($CrmConnectionString -eq '')
 $AssemblyPath = "$scriptPath\bin\Debug\D365Saturday.Plugins.dll"
 $SolutionName = 'Customizations'
 $MappingJsonPath = "$scriptPath\PluginRegistrationMapping.json"
+$IsWorkflowActivityAssembly = $false
+$SolutionName = "Customizations"
+$RegistrationType = "reset"
 
-& "$scriptPath\..\devtools\Tools\xRMCIFramework\PluginRegistration.ps1" -Verbose -CrmConnectionString "$CrmConnectionString" -AssemblyPath "$AssemblyPath" -MappingJsonPath "$MappingJsonPath" -solutionName "Customizations"
+& "$scriptPath\..\devtools\Tools\xRMCIFramework\PluginRegistration.ps1" -Verbose -CrmConnectionString "$CrmConnectionString" -AssemblyPath "$AssemblyPath" -MappingJsonPath "$MappingJsonPath" -SolutionName $SolutionName -IsWorkflowActivityAssembly $IsWorkflowActivityAssembly -RegistrationType $RegistrationType
