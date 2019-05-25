@@ -6,31 +6,43 @@ using System.Linq;
 
 namespace D365Saturday.Plugins.Tests
 {
+    
     public class PhoneCallCreatePluginTests
     {
+        /*
         [Fact]
         public void Should_create_phone_call_history_on_create_of_a_phonecall_with_its_details()
         {
             var ctx = new XrmFakedContext();
+            Assert.True(false);
 
-            var contact = new Contact() { Id = Guid.NewGuid() };
 
-            var phoneCall = new PhoneCall()
-            {
-                Id = Guid.NewGuid(),
-                RegardingObjectId = contact.ToEntityReference(),
-                PhoneNumber = "+34666666666" 
-            };
+            ////Arrange ==> 
+            ////Act  
+            ////Assert ==>
 
-            ctx.ExecutePluginWithTarget<PhoneCallCreatePlugin>(phoneCall);
+            //var ctx = new XrmFakedContext();
+            //var service = ctx.GetOrganizationService();
 
-            var historyRecords = ctx.CreateQuery<ultra_phonecallhistory>().ToList();
-            Assert.Equal(1, historyRecords.Count);
 
-            var historyRecord = historyRecords.First();
-            Assert.Equal(phoneCall.PhoneNumber, historyRecord.ultra_phonenumber);
-            Assert.Equal(phoneCall.RegardingObjectId.Id, historyRecord.ultra_contactid.Id);
-            Assert.Equal(historyRecord.Id, phoneCall.ultra_phonecallhistoryid.Id);
+            //var contact = new Contact() { Id = Guid.NewGuid() };
+
+            //var phoneCall = new PhoneCall()
+            //{
+            //    Id = Guid.NewGuid(),
+            //    RegardingObjectId = contact.ToEntityReference(),
+            //    PhoneNumber = "+34666666666" 
+            //};
+
+            //ctx.ExecutePluginWithTarget<PhoneCallCreatePlugin>(phoneCall);
+
+            //var historyRecords = ctx.CreateQuery<ultra_phonecallhistory>().ToList();
+            //Assert.Equal(1, historyRecords.Count);
+
+            //var historyRecord = historyRecords.First();
+            //Assert.Equal(phoneCall.PhoneNumber, historyRecord.ultra_phonenumber);
+            //Assert.Equal(phoneCall.RegardingObjectId.Id, historyRecord.ultra_contactid.Id);
+            //Assert.Equal(historyRecord.Id, phoneCall.ultra_phonecallhistoryid.Id);
 
         }
 
@@ -61,5 +73,6 @@ namespace D365Saturday.Plugins.Tests
             var historyRecords = ctx.CreateQuery<ultra_phonecallhistory>().ToList();
             Assert.Equal(1, historyRecords.Count);
         }
+        */
     }
 }

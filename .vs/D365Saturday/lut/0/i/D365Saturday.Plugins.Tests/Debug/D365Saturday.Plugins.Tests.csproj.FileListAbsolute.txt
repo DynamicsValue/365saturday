@@ -1,0 +1,13 @@
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.Plugins.Tests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.Plugins.Tests\bin\Debug\xunit.runner.utility.desktop.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.Plugins.Tests\bin\Debug\xunit.abstractions.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.Plugins.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.Plugins.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.Plugins.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.Plugins.Tests\bin\Debug\D365Saturday.Plugins.Tests.dll.config
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.Plugins.Tests\bin\Debug\D365Saturday.Plugins.Tests.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.Plugins.Tests\bin\Debug\D365Saturday.Plugins.Tests.pdb
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins.Tests\Debug\D365Saturday.Plugins.Tests.csproj.CoreCompileInputs.cache
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins.Tests\Debug\D365Saturday.Plugins.Tests.csproj.CopyComplete
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins.Tests\Debug\D365Saturday.Plugins.Tests.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins.Tests\Debug\D365Saturday.Plugins.Tests.pdb

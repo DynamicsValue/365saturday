@@ -10,6 +10,7 @@
   <OrganizationSettings />
   <optionsets />
   <WebResources />
+  <CustomControls />
   <SolutionPluginAssemblies />
   <SdkMessageProcessingSteps />
   <EntityDataProviders />

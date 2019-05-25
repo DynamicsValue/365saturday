@@ -83,13 +83,13 @@
                       </cell>
                       <cell id="{7aecbd64-0225-9ea7-d7a3-5c4d7e68c452}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="No. of Calls (State)" languagecode="1033" />
                         </labels>
                         <control id="ultra_numberofcalls_state" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="ultra_numberofcalls_state" disabled="false" />
                       </cell>
                       <cell id="{c5a992e9-1a77-d659-0558-0730a80dd391}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="No. of Calls (Last Updated On)" languagecode="1033" />
                         </labels>
                         <control id="ultra_numberofcalls_date" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="ultra_numberofcalls_date" disabled="false" />
                       </cell>

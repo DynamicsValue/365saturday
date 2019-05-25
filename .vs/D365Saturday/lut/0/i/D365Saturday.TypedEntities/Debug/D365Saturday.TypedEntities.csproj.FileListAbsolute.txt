@@ -1,0 +1,7 @@
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.TypedEntities\bin\Debug\D365Saturday.TypedEntities.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.TypedEntities\bin\Debug\D365Saturday.TypedEntities.pdb
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.TypedEntities\Debug\D365Saturday.TypedEntities.csprojResolveAssemblyReference.cache
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.TypedEntities\Debug\D365Saturday.TypedEntities.csproj.CoreCompileInputs.cache
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.TypedEntities\Debug\D365Saturday.TypedEntities.csproj.CopyComplete
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.TypedEntities\Debug\D365Saturday.TypedEntities.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.TypedEntities\Debug\D365Saturday.TypedEntities.pdb

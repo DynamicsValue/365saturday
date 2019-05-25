@@ -1,0 +1,8 @@
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\CrmSvcUtilExtensions\GeneratePicklistEnums\bin\Debug\GeneratePicklistEnums.dll.config
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\CrmSvcUtilExtensions\GeneratePicklistEnums\bin\Debug\GeneratePicklistEnums.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\CrmSvcUtilExtensions\GeneratePicklistEnums\bin\Debug\GeneratePicklistEnums.pdb
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\GeneratePicklistEnums\Debug\GeneratePicklistEnums.csprojResolveAssemblyReference.cache
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\GeneratePicklistEnums\Debug\GeneratePicklistEnums.csproj.CoreCompileInputs.cache
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\GeneratePicklistEnums\Debug\GeneratePicklistEnums.csproj.CopyComplete
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\GeneratePicklistEnums\Debug\GeneratePicklistEnums.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\GeneratePicklistEnums\Debug\GeneratePicklistEnums.pdb

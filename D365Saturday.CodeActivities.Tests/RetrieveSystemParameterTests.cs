@@ -8,6 +8,7 @@ namespace D365Saturday.CodeActivities.Tests
 {
     public class RetrieveSystemParameterTests
     {
+        /*
         [Fact]
         public void Should_retrieve_the_parameter_value_given_a_parameter_exists()
         {
@@ -30,5 +31,6 @@ namespace D365Saturday.CodeActivities.Tests
             Assert.Equal("Dummy value", outputs["ParameterValue"]);
 
         }
+        */
     }
 }

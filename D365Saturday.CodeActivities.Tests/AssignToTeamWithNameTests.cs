@@ -10,6 +10,7 @@ namespace D365Saturday.CodeActivities.Tests
 {
     public class AssignToTeamWithNameTests
     {
+        /*
         [Fact]
         public void Should_return_error_if_team_name_doesnt_exists()
         {
@@ -88,6 +89,6 @@ namespace D365Saturday.CodeActivities.Tests
             var contactAfter = ctx.CreateQuery<Contact>().FirstOrDefault();
             Assert.Equal(team.Id, contactAfter.OwnerId.Id);
         }
-
+        */
     }
 }

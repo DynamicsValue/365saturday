@@ -66,6 +66,9 @@
     <Compile Include="..\D365Saturday.TypedEntities\OptionSets.cs">
       <Link>TypedEntities\OptionSets.cs</Link>
     </Compile>
+    <Compile Include="Commands\BaseCommand.cs" />
+    <Compile Include="Commands\CreateContactCommand.cs" />
+    <Compile Include="Models\GenericResult.cs" />
     <Compile Include="PhoneCallCreatePlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,5 +76,6 @@
     <None Include="packages.config" />
     <None Include="strongkey.snk" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

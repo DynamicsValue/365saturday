@@ -1,0 +1,7 @@
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.CodeActivities\bin\Debug\D365Saturday.CodeActivities.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\b\D365Saturday.CodeActivities\bin\Debug\D365Saturday.CodeActivities.pdb
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.CodeActivities\Debug\D365Saturday.CodeActivities.csprojResolveAssemblyReference.cache
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.CodeActivities\Debug\D365Saturday.CodeActivities.csproj.CoreCompileInputs.cache
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.CodeActivities\Debug\D365Saturday.CodeActivities.csproj.CopyComplete
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.CodeActivities\Debug\D365Saturday.CodeActivities.dll
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.CodeActivities\Debug\D365Saturday.CodeActivities.pdb
