@@ -46,9 +46,8 @@ namespace D365Saturday.UIAutomation
                     xrmBrowser.LoginPage.Login(_xrmUri, _username, _password);
                     xrmBrowser.GuidedHelp.CloseGuidedHelp();
 
-                    xrmBrowser.ThinkTime(2000);
+                    xrmBrowser.ThinkTime(500);
                     xrmBrowser.Navigation.OpenSubArea("Sales", "Contacts");
-
 
                     xrmBrowser.ThinkTime(2000);
                     xrmBrowser.Grid.SwitchView("Active Contacts");
@@ -59,8 +58,7 @@ namespace D365Saturday.UIAutomation
                     xrmBrowser.ThinkTime(5000);
 
                     string firstname = "Wael";
-                    //string lastname = Guid.NewGuid().ToString();
-                    string lastname = "Hamze";
+                    string lastname = "Test";
                     string tel = new Random().Next(200000000, 300000000).ToString();
 
                     var fields = new List<Field>

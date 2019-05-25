@@ -69,11 +69,14 @@
     <Compile Include="Commands\BaseCommand.cs" />
     <Compile Include="Commands\CreateContactCommand.cs" />
     <Compile Include="Models\GenericResult.cs" />
+    <None Include="UpdatePluginRegistration.ps1" />
+    <None Include="GetPluginRegistration.ps1" />
     <Compile Include="PhoneCallCreatePlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="PluginRegistrationMapping.json" />
     <None Include="strongkey.snk" />
   </ItemGroup>
   <ItemGroup />
