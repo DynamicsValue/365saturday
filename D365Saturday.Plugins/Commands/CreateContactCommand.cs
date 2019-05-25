@@ -10,7 +10,18 @@ namespace D365Saturday.Plugins.Commands
         public string EmailAddress { get; set; }
         protected override GenericResult ConcreteExecute(IOrganizationService service)
         {
-            var contact = new Contact() { EMailAddress1 = EmailAddress };
+            
+            
+
+            return new  GenericResult();
+        }
+
+
+
+
+        /*
+         
+        var contact = new Contact() { EMailAddress1 = EmailAddress };
 
             using(var ctx = new XrmServiceContext(service))
             {
@@ -23,9 +34,8 @@ namespace D365Saturday.Plugins.Commands
                     service.Create(contact);
                 }
             }
-            
-
-            return new  GenericResult();
-        }
+         * 
+         * 
+         */
     }
 }

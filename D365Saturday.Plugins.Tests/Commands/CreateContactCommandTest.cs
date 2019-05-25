@@ -20,6 +20,18 @@ namespace D365Saturday.Plugins.Tests.Commands
         [Fact]
         public void Should_create_contact_record()
         {
+            Assert.True(false);
+        }
+
+        [Fact]
+        public void Should_not_create_duplicate_contact_record()
+        {
+            Assert.True(false); 
+        }
+
+
+        /*   
+             //Create
             var ctx = new XrmFakedContext();
             var service = ctx.GetOrganizationService();
 
@@ -28,11 +40,12 @@ namespace D365Saturday.Plugins.Tests.Commands
 
             var contacts = ctx.CreateQuery<Contact>().ToList();
             Assert.Single(contacts);
-        }
 
-        [Fact]
-        public void Should_not_create_duplicate_contact_record()
-        {
+            
+         
+
+            //Existing
+
             var ctx = new XrmFakedContext();
             var service = ctx.GetOrganizationService();
 
@@ -45,6 +58,7 @@ namespace D365Saturday.Plugins.Tests.Commands
 
             var contacts = ctx.CreateQuery<Contact>().ToList();
             Assert.Single(contacts);
-        }
+         
+         */
     }
 }

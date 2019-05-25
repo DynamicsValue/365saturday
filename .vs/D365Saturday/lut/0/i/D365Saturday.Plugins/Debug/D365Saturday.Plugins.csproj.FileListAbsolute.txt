@@ -4,4 +4,3 @@ C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins\Debug\D365Satu
 C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins\Debug\D365Saturday.Plugins.csproj.CopyComplete
 C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins\Debug\D365Saturday.Plugins.dll
 C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins\Debug\D365Saturday.Plugins.pdb
-C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins\Debug\D365Saturday.Plugins.csprojResolveAssemblyReference.cache

@@ -11,3 +11,4 @@ C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins.Tests\Debug\D3
 C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins.Tests\Debug\D365Saturday.Plugins.Tests.csproj.CopyComplete
 C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins.Tests\Debug\D365Saturday.Plugins.Tests.dll
 C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins.Tests\Debug\D365Saturday.Plugins.Tests.pdb
+C:\Code\365saturday\.vs\D365Saturday\lut\0\i\D365Saturday.Plugins.Tests\Debug\D365Saturday.Plugins.Tests.csprojResolveAssemblyReference.cache
